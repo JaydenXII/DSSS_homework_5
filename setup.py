@@ -7,9 +7,5 @@ setup(
     author='Jindong Li',
     author_email='jindong.li@fau.de',
     packages=find_packages(),
-    install_requires=[
-        'numpy',
-        'random',
-        'turtles',
-    ]
+    install_requires=['numpy', 'turtles']
 )
