@@ -1,8 +1,5 @@
 import turtle
-from random import randrange
-
 import numpy as np
-
 
 def main(speed=0, bg_color="grey"):
     # create Turtle object
@@ -15,6 +12,7 @@ def main(speed=0, bg_color="grey"):
     turtle_screen.bgcolor(bg_color)
   
     """TODO: define different colors here"""
+    from random import randrange
     turtle.colormode(255)
     def random_color():
         return (randrange(0, 255), randrange(0, 255), randrange(0, 255))
